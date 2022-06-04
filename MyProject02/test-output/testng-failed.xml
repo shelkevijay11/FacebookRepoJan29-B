@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [SuiteF]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="facebookAppPackage.varifySendMassagesOfApplication2">
+        <methods>
+          <include name="logout"/>
+          <include name="objectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="varifyCreateNewGroupButton"/>
+          <include name="logInToApplication"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- facebookAppPackage.varifySendMassagesOfApplication2 -->
+      <class name="facebookAppPackage.varifySendMassagesOfApplication">
+        <methods>
+          <include name="clearObject"/>
+          <include name="logout"/>
+          <include name="objectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="logInToApplication"/>
+          <include name="closedBrowser"/>
+          <include name="varifyCreateNewGroupButton"/>
+        </methods>
+      </class> <!-- facebookAppPackage.varifySendMassagesOfApplication -->
+      <class name="facebookAppPackage.VarifyHeadersOfApplicationTestNG">
+        <methods>
+          <include name="varifyMassengerButton"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="logout"/>
+          <include name="closedBrowser"/>
+          <include name="objectOfPomClasses"/>
+          <include name="logInToApplication"/>
+        </methods>
+      </class> <!-- facebookAppPackage.VarifyHeadersOfApplicationTestNG -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="facebookAppPackage.varifySendMassagesOfApplication2">
+        <methods>
+          <include name="logout"/>
+          <include name="objectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="varifyCreateNewGroupButton"/>
+          <include name="logInToApplication"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- facebookAppPackage.varifySendMassagesOfApplication2 -->
+      <class name="facebookAppPackage.varifySendMassagesOfApplication">
+        <methods>
+          <include name="clearObject"/>
+          <include name="logout"/>
+          <include name="objectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="logInToApplication"/>
+          <include name="closedBrowser"/>
+          <include name="varifyCreateNewGroupButton"/>
+        </methods>
+      </class> <!-- facebookAppPackage.varifySendMassagesOfApplication -->
+      <class name="facebookAppPackage.VarifyHeadersOfApplicationTestNG">
+        <methods>
+          <include name="varifyMassengerButton"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="logout"/>
+          <include name="closedBrowser"/>
+          <include name="objectOfPomClasses"/>
+          <include name="logInToApplication"/>
+          <include name="varifyPagesButton"/>
+        </methods>
+      </class> <!-- facebookAppPackage.VarifyHeadersOfApplicationTestNG -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" parallel="classes" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="facebookAppPackage.varifySendMassagesOfApplication2">
+        <methods>
+          <include name="logout"/>
+          <include name="objectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="varifyCreateNewGroupButton"/>
+          <include name="logInToApplication"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- facebookAppPackage.varifySendMassagesOfApplication2 -->
+      <class name="facebookAppPackage.varifySendMassagesOfApplication">
+        <methods>
+          <include name="clearObject"/>
+          <include name="logout"/>
+          <include name="objectOfPomClasses"/>
+          <include name="launchBrowser"/>
+          <include name="logInToApplication"/>
+          <include name="closedBrowser"/>
+          <include name="varifyCreateNewGroupButton"/>
+        </methods>
+      </class> <!-- facebookAppPackage.varifySendMassagesOfApplication -->
+      <class name="facebookAppPackage.VarifyHeadersOfApplicationTestNG">
+        <methods>
+          <include name="varifyMassengerButton"/>
+          <include name="launchBrowser"/>
+          <include name="clearObject"/>
+          <include name="logout"/>
+          <include name="closedBrowser"/>
+          <include name="objectOfPomClasses"/>
+          <include name="logInToApplication"/>
+        </methods>
+      </class> <!-- facebookAppPackage.VarifyHeadersOfApplicationTestNG -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [SuiteF] -->
